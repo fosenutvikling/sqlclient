@@ -1,0 +1,49 @@
+{
+  "name": "@fosenu/sqlclient",
+  "version": "1.0.0",
+  "description": "SQL client abstraction ",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config=jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fosenutvikling/sqlclient.git"
+  },
+  "keywords": [
+    "sql",
+    "client",
+    "database-js",
+    "database",
+    "migration"
+  ],
+  "author": "Jonas Kirkemyr <jonas@fosen-utvikling.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fosenutvikling/sqlclient/issues"
+  },
+  "homepage": "https://github.com/fosenutvikling/sqlclient#readme",
+  "devDependencies": {
+    "@fosenu/prettier": "^0.1.1",
+    "@fosenu/tslint": "^0.1.2",
+    "@types/jest": "^23.3.10",
+    "@types/node": "^10.12.15",
+    "@types/rewire": "^2.5.28",
+    "@types/umzug": "^2.2.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "database-js": "^3.0.8",
+    "umzug": "^2.2.0"
+  }
+}
