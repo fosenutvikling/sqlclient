@@ -46,6 +46,8 @@ DatabaseClient.options = {
 ```
 
 __Connection Options__
+
+
 | Option     | Required?                 | Description                                                                                                                                                                                              |
 |------------|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DriverName | Required                  | Type of driver to use, supported by database-js. See [https://github.com/mlaanderson/database-js/wiki/Drivers](https://github.com/mlaanderson/database-js/wiki/Drivers) for a list of supported drivers. |
